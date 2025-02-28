@@ -1,0 +1,69 @@
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8" />
+    <title>Formulário</title>
+
+  </head>
+
+  <body>
+
+      <h1>Formulário</h1> 
+    
+  <section>
+
+    <form>
+
+      <fieldset>
+
+      <legend>Informações Pessoais</legend>
+
+      Nome: <input type="text" name="nome" placeholder="Digite seu nome"><br><br>
+
+      Data de nascimento: <input type="datetime-local" name="data-de-nascimento"><br><br>
+
+      Email: <input type="text" name="email" placeholder="Digite seu email"><br><br>
+
+      Senha: <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
+
+      Gênero: <input type="radio" name="genero" value="masculino">Masculino
+      <input type="radio" name="genero" value="feminino">Feminino
+      
+      </fieldset>
+
+      <fieldset>
+
+      <legend>Mensagem</legend>
+
+      Motivo do contato:
+      
+      <select id="motivo" name="motivo-contato"> 
+
+        <option value="duvida">Dúvida</option>
+        <option value="sugestao">Sugestão</option>
+        <option value="reclamacao">Reclamação</option> 
+
+      </select> <br><br>
+
+      Mensagem: <br>
+      <textarea placeholder="Escreva um comentário..."></textarea> <br>
+      <button type="submit">Enviar comentário</button> <br><br>
+
+      Anexo: <br> 
+      <input type="file" name="arquivos"  multiple> <br><br>
+
+      Aceito receber notificações de resposta: <input type="checkbox" name="notificacao" value="notificacao">
+
+      </fieldset>
+
+      <input type="submit" name="enviar" value="Enviar">
+      <input type="reset" name="limpar" value="Limpar">
+
+    </form>
+
+  </section>
+
+  <a href="curriculo.html">Voltar</a>
+
+  </body>
